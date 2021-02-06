@@ -1,0 +1,140 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+body {
+ 	background: url('notebook.png'); /* add a fallback color of #d6d6d6 */
+ 	color: #000000;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.7; /* line-height is unit-less */
+ 	font-size: 100%;
+}
+
+h1 {
+ 	font-size: 60px;
+ 	margin-bottom: 10px;
+ 	letter-spacing: -3px;
+
+}
+
+h2 {
+ 	font-size: 32px;
+ 	margin: 0;
+}
+
+a {
+	color: #ff3300;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#Avatar {
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#Greek {
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-left: 45px;
+}
+
+.post {
+	margin-bottom: 50px;
+}
+
+.rgb {
+	color: #999;
+    padding: 10px 0px;
+    border-top: #BBB solid 1px;
+}
+
+.tagline {
+	margin-top: -30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.sidebar-insider {
+	padding-left: 30px;
+}
+
+blockquote {
+	border-left: #BBB solid 5px;
+	padding-left: 10px;
+	font-style: italic;
+
+}
+
+/*h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}*/
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+#container {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+#main {
+
+	background: white;
+	width: 600px;
+	padding: 25px;
+	float: left;
+	margin-right: 10px;
+	font-size: 15px;
+	border-left: 3px solid #BBB;
+	border-bottom: 3px solid #BBB;
+
+}
+/*----------------------------------------------------------------------------- 
+04=SIDEBAR
+-----------------------------------------------------------------------------*/
+
+#sidebar {
+	background: white;
+	width: 330px;
+	height: 955px;
+	padding: 25px;
+	float: left;
+	border-left: 3px solid #BBB;
+    border-bottom: 3px solid #BBB;
+}
+
+/*----------------------------------------------------------------------------- 
+05=FOOTER  
+-----------------------------------------------------------------------------*/
+
+#footer {
+	
+}
